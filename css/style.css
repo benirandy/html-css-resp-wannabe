@@ -133,6 +133,8 @@ img {
 @media all and (min-width: 480px) {
     .container {
         background-color: rgba(128, 255, 0, 0.442);
+        width: 100%;
+        margin: 0 auto;
     }
 
     .lessons .col {
@@ -159,10 +161,12 @@ img {
 
 }
 
-@media all and (min-width: 768px) {
+@media all and (max-width: 768px) {
 
     .container {
         background-color: yellow;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .lessons .col {
